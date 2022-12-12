@@ -1,0 +1,297 @@
+DungeonDelveXL Version 1.11
+---------------------------
+
+TBC
+
+
+DungeonDelveXL Version 1.10
+---------------------------
+
+- Added two new races (Halfling, Sprite)
+- Added racial resistances (Dwarf vs Poison, Sprite vs. Electricity)
+- Added racial speed bonuses/penalties
+- Made missile spell less damaging as it was overpowered
+- Reduced the chance of encountering an enemy mage at low level
+- Made low level mages slightly less powerful
+- Increased dungeon cash rewards for lower levels
+- Buffed stealth hiddenness chance and ambush damage for thieves
+
+
+DungeonDelveXL Version 1.9
+--------------------------
+
+- Fixed a bug where experience would sometimes not add up correctly when killing a creature.
+- Fixed spell description for Maelstrom.
+- Fixed a bug with calculating the BoostStats cost in a temple.
+
+
+DungeonDelveXL Version 1.8
+--------------------------
+
+- Fixed a bug with the merchant dialog that occasionally caused the game to crash
+- Fixed the toolbox popup in Merchant dialog
+- Fixed a bug with creatures sometimes casting an incorrect spell
+- Fixed a bug in spell details dialog
+- Fixed a bug that sometimes caused characters to start missions with too many HP.
+- Improved creature AI for casting beneficial spells (especially healing allies)
+
+
+DungeonDelveXL Version 1.7
+--------------------------
+
+- Fixed item description not showing all enchants
+- Fixed crafting of basic materials failure rate
+- When crafting on 2nd or later tabs, don't switch back to first tab after the crafting completes and the dialog redraws
+- Test for illegal characters in character name
+- Optimised loading and display of world map
+- If small party and all CHs are enabled, then don't warn when starting level with only one character in party.
+- When wielding DH put some mark in the offhand column in character sheet to indicate it's unavailable
+- On create/load new game, make sure all town comments in map are deleted
+- Potions now display their effects properly in tooltip
+- CastOnSelf button now correctly casts cancellation/dispel
+- Announce when a heroic quest is available
+- Your party can now pay to construct roads between settlements.
+-- Roads take time and money to build, but are much safer and reduce travelling fatigue
+-- Road build cost increases as you go further south, to reflect the increasing danger
+- You can now buy a pack mule, pack ox or ox cart to store your party's heavier belongings
+- Slightly tweaked experience and gold rewards from missions (and altered reputation levels to compensate)
+- Altered how stealth works to make it succeed more often
+- You now can't stealth when casting light, and applying light to a character breaks stealth
+- Elves and Goblins now get a bonus to dark sight range. So do thieves.
+- Creatures now actively search for stealthed characters if they were previously seen when unstealthed
+- Added extra information about choices on character creation screen
+- Altered the balance between classes to make them feel slightly more different
+-- Priests are slightly weaker in offence now, but their buffs are slightly stronger.
+--- Summoned skeletons are slightly weaker physically. Angels are now much weaker in combat but stronger in magic.
+-- Wizards' summoned pets are weaker physically, but stronger magically
+- First Aid has been buffed
+- Fixed a bug where self-casting spells cost too much Stamina
+- You now start with Familiar reputation in your starting town
+- You can now change the scale for the Town Map and the Mission Map
+- Town Map now draws much faster
+- Fixed a bug preventing loading of missions saved after killing all creatures
+- MissionControl dialog now appears on the correct screen for those with multiple monitors
+- Added a few new weapons
+- Updated halberds and pikes to have a range of 2 so they can be used from the second rank
+- Some pets now have good night vision
+- Enemy spell casters can now only cast spells of their level or below. No more level 1 goblin mages with Fire Arrow!
+- Fixed a bug in multi-level dungeons where creatures could start on the same square as a character on lower levels
+- Fixed a bug in multi-level dungeons where the map didn't redisplay properly when heading back to upper levels
+
+
+DungeonDelveXL Version 1.6
+--------------------------
+
+- Fixed skinning when creatures have multiple skin types
+- Added a test on Load/Save to ensure that you are loading on a version of Excel with a compatible random number generator to the save game.
+- Should now be compatible with 64-bit Excel
+
+
+DungeonDelveXL Version 1.5
+--------------------------
+
+- Improved crafting dialog to display maximum number of items craftable
+- Rescaled creature special attacks so they don't deal way too much damage
+-- Slightly scaled up damage from higher level creatures to compensate
+- Spell rebalancing
+-- Slightly reduced variability on healing spells
+-- Tweaked damage on a few area-effect spells
+-- Slightly increased damage on some high level spells
+-- Altered learning cost for spells so that higher level spells are most costly, but lower level spells are slightly cheaper
+-- Reduced periodic healing for Priest heal-over-time spells
+-- Reduced protection value for some self-protection spells
+- Fixed issue with spell/skill list boxes resizing and hiding other parts of the mission control dialog
+- Increased speed at which reputation is gained with high level towns
+- Mission view will now automatically zoom to any action happening off-screen (if visible)
+- Summoned creatures no longer randomly scout out irrelevant areas of the map
+- Summoned creatures no longer attack enemies not visible to the characters
+- MissionView control should now correctly default to the main weapon
+- Fixed a few minor presentation bugs
+- If a summoner dies, their summoned creatures now die also
+- Fixed a bug where dispels were costing too much Stamina
+- Tweaked some window/font sizes
+
+
+DungeonDelveXL Version 1.4
+--------------------------
+
+- Updated Creature AI Targeting logic.
+- Improved Creature AI responsiveness (especially for summoned creatures).
+- Enemy magic users are now limited to summoning a maximum of one creature, just like Players.
+- Added Blink/Teleport spells for Wizards and some creatures
+- Fixed a line-of-sight bug for spell casting which meant that spells could be targeted at unseen squares.
+- Added in some more gathered materials for crafting
+- Slightly altered some existing materials
+- Some advanced, composite crafting materials are no longer available in the Trade Market
+- Added in Vampiric weapon enchant
+- Added in "Vampiric Touch" Wizard spell, plus abilities for some creatures
+- Fixed a bug where minions could continue fighting if they killed an enemy mid-turn, even if they were out of Stamina
+- Extended the range of bows slightly
+- Correctly increase dispel chance if specialised in that spell
+- Updated GUI so that animations work properly with Excel versions >= 2013
+- Updated XML parsing framework so it works with Excel versions >= 2013
+- Normal missions are all now 1 level deep
+- Introduced Heroic missions that are available when your reputation in a town is at least "Famous".
+-- There will only be one available heroic mission at a time
+-- Heroic Missions are at least 2 levels deep
+-- Boss creatures are slightly tougher in Heroic Missions
+-- Heroic Missions provide much more rewards (Experience and Gold) than normal missions
+- Scaling font size for inventory items on character sheet so items with long names don't get lost
+- Fixed spell choosing when scrolled to end of list
+
+
+DungeonDelveXL Version 1.3
+--------------------------
+
+- Added Lightness enchantment (10% weight reduction per point).
+- Removed defence bonus from chitin armour.
+- Secondary material now affects price & weight of items less.
+- Fixed bug on announcement of dispel failure.
+- Made it easier to dispel effects on hostile opponents.
+- Reduced the damage reduction and duration of barkskin, stoneskin and mithrilskin.
+- Added in lots more spells.
+- Lots of monsters are now immune to poison (and a few other immunities tweaked).
+- Extra equipment added.
+- Creatures now do less damage to other creatures (i.e. minions) and more to characters.
+- Enchantment cost is now fairer (and removes a huge arbitrage exploit).
+- Regeneration enchantments (+1 HP per turn).
+- Slightly improved XP reward for larger dungeons.
+- Display weights properly (in g if small, avoiding recurring decimals).
+- Increased HP and stats of Leaders/Uniques.
+- Made item enchantments cheaper.
+- Added Orbs (can be carried instead of weapons; can carry weapon or armour enchantments).
+- Increased defence, attack and magic defence, magic attack gain per level for many creatures, especially at higher levels.
+- Several save game size optimisations.
+- Fixed bugfix with targetting large creatures partially obscured by corners.
+- Increase the average settlement size at the southern end of the world map.
+- Added reputations. As you complete missions you gain reputation for that town, which gives you
+  better prices in the town's shops, plus extra perks. Temple/Magisterium services are now only open to you
+  when you have high enough reputation.
+- Missions with larger creatures are more likely to be caves, and are less cramped.
+- Added fatigue: As your party moves around the map or conducts missions, it becomes tired. This means that you will
+  get a penalty to your skills in missions. Sleeping in a Hotel or Inn will solve that problem. If you rest long
+  enough then you get a bonus to your skills.
+- Added buttons to list details of known and available skills & spells on the character sheet.
+- Sped up mission map redrawing.
+- Fixed bug where damaging spells occasionally healed targets if they missed by a large margin.
+- Removed some debugging code that I left in by accident.
+- You can now transfer items between active members during missions.
+- Fixed an AI slowdown in path-finding.
+- Fixed a bug with worksheet protection.
+- Character worksheet show/hide button now displays correctly.
+- Some creatures can now open doors. So you can no longer always open doors, fire off a few spells, shut the door and hide.
+- You can now put extra points into spells to improve them. Specialised and Master level spells do more damage (10%,20%),
+  Have longer durations (50%,100%), Confer more resistance (20%,40%), Have longer light range (+1,+2), and summon
+  stronger creatures.
+- Increased the range of all bows by one square.
+- Added ability to remove (unlearn) spells, via the InfoPage ("?" button).
+- Fixed a bug whereby creature damage/healing effects were not correctly handled.
+- Summoned IceWalls now melt slowly over time.
+- Mission map is now correctly redrawn after creature AI updates.
+- Increased the maximum level for several creature types.
+- Added loads of new monster types, including several new uniques.
+- Fixed spell descriptions for healing spells.
+- Reworked the melee combat hit/damage algorithm so that damage is spread out more evenly and fairly.
+- Fixed a few bugs with the trade market dialog.
+- Mercenaries are now cheaper to hire at lower levels.
+- Ranged weapons now miss more often at longer ranges (-1 hit penalty per square).
+- Rangers Att/level down from 2 to 1.5, but do not suffer attack penalty due to range on ranged weapons
+- Implemented thief skills (Lockpick, Disarm Traps, Stealth, Unstealth).
+- Thieves now ambush a target for an attack bonus of 5+(Lvl*2) when attacking in melee while stealthed.
+- Only thieves can now disarm traps.
+- Stealth is now an "on demand" skill. Thief blends into shadows and becomes harder to spot.
+  Any action/attack breaks the stealth.
+- Renamed Mage -> Wizard for clarity.
+- Creatures now correctly spot partially obscured characters if nearby.
+- Paladins and Warlocks can now only learn one spell every *other* level, and can't specialise in spells.
+- Paladins and Warlocks now have higher Att/Def but slightly lower MDef.
+- Paladin/Warlock base skills slightly altered for Mercenaries.
+- Altered some material properties, costs and weights.
+- Temples no longer heal, they now have a "replenish" function, which fully heals and rests the entire party.
+- Improved setup of mercenaries (especially spell selection and equipment suitability).
+- Altered how to use 'self' skills: You now need to press "Use on Self" button.
+- Golems now drop metal and disintegrate on death.
+- First Aid can now be correctly used on a friendly target adjacent to the selected character.
+- Increased the stamina cost for wielding some weapons.
+- Slightly decreased stamina for some creatures, and increased the stamina cost of attacking.
+- Upgraded Ranger's wolf to "Hunting Wolf", and extended potential maximum level indefinitely.
+- Increased defence scaling per level for Wizards/Clerics/Thieves and all monsters
+- Healing spells (and other beneficial spells) don't scale so quickly with caster level
+- Missions to assassinate "Unique" creatures are now more common
+- Fixed a bug with creature immunity accidentally making creatures 100% immune to some attacks
+- If party dies in a dungeon, but some players are inactive, then abort the dungeon but continue playing
+- Creatures will no longer hit themselves with AoE spells
+- Made it slightly harder to hit higher level creatures in combat
+- Barkskin/Stoneskin/Mithrilskin are now self-cast only
+- Fixed a bug with temple charging for stat raising even when it was cancelled
+- Multi-select enabled for inventory screen in missions
+- Made crafting slightly harder
+- Crafting materials are not always available at lower-level Trade Markets
+
+
+
+DungeonDelveXL Version 1.2
+--------------------------
+
+- Fixed bug with fleeing monsters running over other monsters
+- Increased armour protection for low armour values, decreased it for high armour values
+- Fixed some typos
+- Added in two new enemy types (Savages and Centaurs)
+- Fixed Ogre mage spell list
+- Fixed bug displaying character stats incorrectly
+- Slightly reduced player stamina levels and maximum hit points
+- Added several new weapon and armour types
+- Improved pathfinding AI, especially for pets
+- Rescaled armour protection values
+- Some armour is now a bit lighter (and encumbrance levels scaled down a bit)
+- Reduced the strength of First Aid
+- Hiding hidden doors a bit better
+- Fixed notification for creature dispel failures
+- Correctly updating abilities on level up
+- Slightly reduced the range for Wrath and Missile from 10 to 8.
+- Improved some monster symbols
+- ZoomTo button, EndOfTurn now cancel the current action
+- Correctly update mission goals on transition
+- Merchants now only display inventory of characters with equipment to sell
+- Trolls now suffer less damage from physical attacks, and their fire vulnerability is lower
+- Fixed bug when transitioning between levels in dungeons without clearing all creatures
+- Fixed bug with AI freezing for static summoned creatures (e.g. ice walls)
+- Limited spell list to a maximum of one per level
+- Spells are now harder to find in Magisterium/Temple
+- Tweaked creature damage
+- Fixed bug in crafting window
+- Fixed bug when selling items at trade market caused error
+- Added ability to handle stacked items in merchant sell dialog
+- Slightly increased width of spell/skill lists in character control dialog
+- Added several new spells
+- Slightly toughened up summoned creatures
+- Fixed freeze bug on initial world generation
+- All starting characters now have mandatory First Aid training
+- Multi-select in Merchant dialog
+- Fixed bug in Merchant dialog with ambiguous item selection
+- Slightly reduced the level of items in merchants based on map Y-coord
+- Slightly increased the cost of enchantments
+- Improved random item generation
+
+
+
+DungeonDelveXL Version 1.1
+--------------------------
+
+- Slightly reduced cost of starting items
+- Ensured that the starting town will contain all the useful shops
+- Fixed a bug on the mission control window that prevented self-casting some beneficial spells
+- Spells list/skills list always openable, even if none is currently usable
+- Correctly warns if you can't afford to learn spells
+- Correctly closes spells list on MissionControl dialog when required
+- Make AutoMove take random (optimal) paths
+- Make speed-causing effects of some spells weaker
+- Reduced area of effect of some spells
+- Some spell balancing
+- Scaled down prices of entry-level kit slightly
+- Summoned creatures now get into the action more quickly
+- Improving creature AI handling of unreachable enemies
+- Simplified spellcasting UI (reducing number of clicks required)
+- Altered damage scaling for physical attacks based on superiority of attack skill
+
+

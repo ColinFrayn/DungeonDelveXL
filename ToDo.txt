@@ -1,0 +1,83 @@
+ToDo for DungeonDelveXL
+-----------------------
+
+
+-----------
+Working Set
+-----------
+
+Check crash on O365 somehow?
+
+Make the font type user-changeable
+
+Try Dan's tip : selection.numberformat="0.000000"
+
+-----------------
+Done This Version
+-----------------
+
+Updated internal data to make it easier to edit and load.
+Fixed an issue with loading of static data with some international settings.
+Fixed an issue that caused mission goal details to vanish in some circumstances.
+
+-------
+Backlog
+-------
+
+Add enchanting as a skill?? (Jewels as materials)
+
+Toolbox keeps popping up? -> Go to edit control, open toolbox, close toolbox, save, retry :)
+- Alternatively, replicate what makes it popup (e.g. close tab) and then close it, resave, retry
+
+Controlled creatures
+- They don't always seem to attack when there's a nearby enemy
+-- If no target then always attack target of summoner
+- They only attack TLC of size 2,3 creatures : should attack them anywhere
+-- That goes for all creatures - always aim for nearest flanking square
+
+Add potions & brewing
+
+Optimise everything (using Dan's utility??)
+- Especially AI update, loading & displaying maps/towns
+
+Action buttons on mission control:
+- Always have 2 buttons, and they can be set to whatever you want.
+-- E.g. set to a weapon, skill, spell (or nothing)
+- Arrow keys = move and 7,9,1,3,5 on numeric keypad do the other MissionControl actions as fits their location
+- ?? http://www.codeguru.com/vb/gen/vb_system/keyboard/article.php/c4829/Managing-LowLevel-Keyboard-Hooks-with-the-Windows-API.htm
+
+Add an option to stop showing the MsgBox for creature attacks
+- Add a "Commentary" window that lists everything that happens
+
+Make item tip windows into modeless dialogs?  [CHECK ModelessMsg - seemed to cause issues]
+
+Ctrl-H (or whatever) hides game and replaces it with a boring spreadsheet
+
+Implement multiple locked doors per level if sufficiently large
+- Maybe do it iteratively on top of existing locked door code
+-- Alternatively, could look for areas which can be sealed off using two doors?
+
+Hidden Sheets
+- Use xlWellHidden to hide templates/data completely from the user?
+
+Add ByVals everywhere
+
+Allow crafting an item even if the inventory will only have sufficient space after crafting materials used up
+- Or if the target can fit in a stack?
+
+Are secondary materials cosmetic, or should they give bonuses (other than weight, cost)?
+
+Saving in compatibility mode? (Save everything, don't rely on rnd())
+
+
+-------------
+Stuff To Test
+-------------
+
+Possibly doesn't correctly set up party stats if two characters die in the same turn.
+
+Enemy magic users should only summon max one creature
+
+When attempting to learn spells, if character has reached max, still let them improve ones they already have
+
+
