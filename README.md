@@ -25,11 +25,11 @@ You might think that this makes certain races only suitable for certain roles, b
 
 The five major abilities are each related to many in-game skills and values. Primarily, however, these skills contribute in a few specific areas. They all start with a skill of ten, plus or minus the appropriate modifier from your race. Here's a list:
 
-•	Strength - Increases physical attack skill and carrying capacity.
-•	Toughness - Increases maximum health.
-•	Endurance - Increases maximum stamina and stamina regeneration.
-•	Agility - Increases physical defence, and also slightly increases magical attack and defence.
-•	Intelligence - Increases magical attack and defence.
+-	Strength - Increases physical attack skill and carrying capacity.
+-	Toughness - Increases maximum health.
+-	Endurance - Increases maximum stamina and stamina regeneration.
+-	Agility - Increases physical defence, and also slightly increases magical attack and defence.
+-	Intelligence - Increases magical attack and defence.
 
 You can choose to rebalance the points in these abilities as you see fit, though in the character creator the total must always sum to the same value. So in order to increase one stat, you must first reduce another. You can increase the stats beyond this limit later on in the game, so these choices are not completely permanent.
 
@@ -40,14 +40,14 @@ These stats are also used to measure your character's ability at some of the non
 
 Choosing a class is also important as it will determine the skills and abilities that your character will gain as he or she gains levels. The classes available are:
 
-•	Warrior   – A strong fighter, with excellent physical attack and defence skills.
-•	Barbarian – A reckless fighter with an Enrage skill. Stronger attack than the warrior, but weaker defence.
-•	Priest    – A magic user with a range of spells balanced towards defensive/support roles. Weak at physical combat.
-•	Wizard    – A magic user with a range of spells balanced towards offensive roles. Weak at physical combat.
-•	Paladin   – Half way between a priest and a warrior – some magic abilities but with passable fighting skills.
-•	Warlock   – Half way between a wizard and a warrior – some magic abilities but with passable fighting skills.
-•	Thief     – A nimble character with decent close combat ability, and a load of extra skills to help you through the toughest dungeons. The Thief is also better than other classes at finding hidden doors, traps and treasure and has the ability to enter stealth and attack creatures from the shadows.
-•	Ranger    – A long-range warrior, able to call a tame hunting wolf to fight as a companion. Moderately strong in close combat but excellent at range (does not suffer from hit penalty due to range, unlike other classes).
+-	Warrior   – A strong fighter, with excellent physical attack and defence skills.
+-	Barbarian – A reckless fighter with an Enrage skill. Stronger attack than the warrior, but weaker defence.
+-	Priest    – A magic user with a range of spells balanced towards defensive/support roles. Weak at physical combat.
+-	Wizard    – A magic user with a range of spells balanced towards offensive roles. Weak at physical combat.
+-	Paladin   – Half way between a priest and a warrior – some magic abilities but with passable fighting skills.
+-	Warlock   – Half way between a wizard and a warrior – some magic abilities but with passable fighting skills.
+-	Thief     – A nimble character with decent close combat ability, and a load of extra skills to help you through the toughest dungeons. The Thief is also better than other classes at finding hidden doors, traps and treasure and has the ability to enter stealth and attack creatures from the shadows.
+-	Ranger    – A long-range warrior, able to call a tame hunting wolf to fight as a companion. Moderately strong in close combat but excellent at range (does not suffer from hit penalty due to range, unlike other classes).
 
 Classes don’t affect your base abilities, but they may offer new skills that you can master. As opposed to most RPGs, the class you choose doesn’t affect the armour you can wear, the skills you can learn (except a few class-specific ones) or the weapons you can wield. It does affect the way in which your attack, defence, magic attack and magic defence scale with level (although not your stamina or hit points). Classes also alter the number of skills of each type (combat skills and non-combat skills) you learn per level, and which spells you can learn (if any).
 
@@ -79,11 +79,11 @@ For all skills and spells, you can find out more about them by clicking the "?" 
 You will notice that the character sheet displays the currently equipped items in one location, and then at the bottom of the sheet is found the rest of your inventory. You will start the game with a few bits of low-quality beginner equipment, but that's it. You can use the buttons beside the items in both locations to wear/remove armour, equip/unequip weapons/shields and to destroy items you don't want. Unwanted items may also be sellable in local merchants' shops.  If you have any other members in your party, you will also be able to transfer items between characters from here.
 
 The main skills here worth noting are:
-•	Attack (Att): Ability to hit with weapons, and do more damage per hit.
-•	Defence (Def): Ability to avoid being hit by weapons, and dodge/deflect/parry some of the damage done.
-•	Magic Attack (MAtt): Ability to hit with spells, and do more damage per hit.
-•	Magic Defence (MDef): Ability to avoid being hit with spells, and avoid some of the damage dealt.
-•	Protection (Prot): Damage reduction thanks to the armour you're wearing (applies to all damage types).
+-	Attack (Att): Ability to hit with weapons, and do more damage per hit.
+-	Defence (Def): Ability to avoid being hit by weapons, and dodge/deflect/parry some of the damage done.
+- Magic Attack (MAtt): Ability to hit with spells, and do more damage per hit.
+-	Magic Defence (MDef): Ability to avoid being hit with spells, and avoid some of the damage dealt.
+-	Protection (Prot): Damage reduction thanks to the armour you're wearing (applies to all damage types).
 
 Note that, in each case, the contributions from the various abilities, equipment, magic effects etc. are listed alongside or beneath the stats themselves.
 
@@ -96,11 +96,11 @@ The Town Map appears only when your party is in a town, and not in a mission. Yo
 
 Many of these buildings are numbered, with a key on the right hand side showing what each building represents. These can be of several types:
 
-•	Town Hall where you can take on new missions.
-•	Mercenary Guild where you can hire extra members for your party.
-•	Magisterium / Temple where you can gain services from wizards or priests, and learn new spells of those types. You may also be able to enchant equipment and increase stats.
-•	Merchants where you can buy and sell items of specific types.
-•	Inns/Hotels where you can rest from your adventures and recover from fatigue.
+-	Town Hall where you can take on new missions.
+-	Mercenary Guild where you can hire extra members for your party.
+-	Magisterium / Temple where you can gain services from wizards or priests, and learn new spells of those types. You may also be able to enchant equipment and increase stats.
+-	Merchants where you can buy and sell items of specific types.
+-	Inns/Hotels where you can rest from your adventures and recover from fatigue.
 
 Click on the building icon to visit that location and trade/interact with the owners. You will also notice on the Town Map screen an indication of your party's reputation within this town. Your reputation starts off as "Unknown" and gradually rises through levels of "Familiar", "Renowned", "Famous", "Heroic" and "Legendary". Some options in the town's various merchants are not available until your party is of sufficiently high reputation (especially in the Temple and Magisterium). Reputation also gives you a discount to the prices in shops, with 2% better prices for each level above "Unknown". Also, once you reach “Famous” reputation, new “Heroic” missions will open up. There will only ever be one heroic mission at a time, but it will be significantly more difficult and also more rewarding than the other missions available.
 
@@ -188,7 +188,7 @@ If you find a bug, then please contact me. My contact details are available on m
 ### Legal
 
 DungeonDelveXL - An Excel-based role Playing Game.
-Copyright (C) 2013-2022 Colin M Frayn
+Copyright (C) 2013-2025 Colin M Frayn
 
 This program is free software: you can redistribute it and/or modify it under the terms of version 3 of the GNU General Public License as published by the Free Software Foundation.
 
